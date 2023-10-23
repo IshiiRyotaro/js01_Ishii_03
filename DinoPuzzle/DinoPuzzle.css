@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+.bg {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+}
+
+.gamesheet {
+    display: flex;
+    width: 720px;
+    height: auto;
+    background-color: white;
+    position: relative;
+}
+
+/* #canvas {
+    width: 720px;
+    height: 480px;
+    touch-action: none;
+} */
+
+.tex {
+    position: absolute;
+    width: 250px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #fdedd9;
+    border: 3px solid brown;
+    border-radius: 40px;
+    padding: 13px;
+    left: 990px;
+    top: 200px;
+}
+
+.start {
+    position: absolute;
+    font-size: 32px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: green;
+    text-align: center;
+    width: 180px;
+    height: 100px;
+    border: 10px double brown;
+    padding: 10px;
+    background-color: bisque;
+    left: 1040px;
+    top: 430px;
+}
+
+.mt{
+    font-size: 96px;
+    text-shadow:rgb(37, 204, 255) 5px 5px;;
+    margin-top: 0;
+    position: absolute;
+    color: rgb(30, 30, 30);
+    left: 35%;
+    top: 5%;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#table {
+    width: 100%;
+    position: absolute;
+    left: 35%;
+    right: 50%;
+    top: 150px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    border: 4px solid brown;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: black;
+    background-color: bisque;
+    box-shadow: rgb(220, 69, 10) 5px 5px;
+}
+
+.up {
+    position: absolute;
+    width: 960px;
+    height: 180px;
+    left: 250px
+}
+
+.down {
+    position: absolute;
+    width: 960px;
+    height: 250px;
+    left: 250px;
+    top:650px
+}

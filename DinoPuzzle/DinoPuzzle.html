@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DinoPuzzle</title>
+    <link rel="stylesheet" href="./DinoPuzzle.css">
+    <style>
+    </style>
+</head>
+
+<body onload="init()" class="bg">
+    <img src="./dinoframeup.png" alt="" class="up">
+    <p class="mt">Dino Puzzle</p>
+    <!-- <canvas id ="canvas" width="720px" height="480px"></canvas> -->
+    <div class="wrap">
+        <div class="gamesheet">
+            <table id="table">
+            </table>
+            <button class="start" onclick="window.location.reload();">ReStart!!</button>
+            <p class="tex">左上から1~24に<br>ならべてみよう<br>下のボタンで<br>↓ リスタート！ ↓</p>
+        </div>
+        <img src="./dinoframedown.png" alt="" class="down">
+    </div>
+</body>
+
+<script src="./DinoPuzzle.js">
+</script>
+
+</html>
